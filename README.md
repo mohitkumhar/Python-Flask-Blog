@@ -1,2 +1,2 @@
-# Python-Flask-Blog-Project
+# Python-Project-Flask-Blog
 The blog I created for my Python Project.
