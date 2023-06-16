@@ -1,0 +1,74 @@
+{% extends 'layout.html' %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{url_for('static', filename='img/home-bg.jpg')}}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1 class="mb-3 h2">
+                              {{params['blog_head']}}
+                            </h1>                               
+                            <span class="subheading">
+                              {{params["blog_sub_head"]}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+  <!--Main layout-->
+
+  <main class="my-5">
+    <div class="container">
+
+      <!--Section: Content-->
+      <section class="text-center">
+        <h2 class="mb-5"><strong>Latest posts</strong></h2>
+        <div class="row">
+
+          {% for post in posts %}
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  {% set fname = 'img/' + post.img_file %}
+                      <header class="masthead" style="background-image: url('{{url_for('static', filename=fname)}}')"></header>
+                    <a href="/">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    {{post.title}}
+                  </h5>
+                  <p class="card-text">
+                    {{post.subtitle}}
+                  </p>
+                  <a href="/post/{{post.slug}}" class="btn btn-primary">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          
+        </div> 
+    </div>
+            
+      </section>
+
+      <!-- Pagination -->
+        <nav class="my-4" aria-label="...">
+          <ul class="pagination pagination-circle justify-content-center">
+            <a class="btn btn-outline-primary btn-lg btn-block" href="{{prev}}" tabindex="-1" aria-disabled="true">
+              &larr; Previous
+            </a>
+            <a class="btn btn-outline-primary btn-lg btn-block" href="{{next}}" tabindex="1" aria-disabled="true" style="margin-left: 30%;">
+              Next&rarr;
+            </a>
+        </ul>
+      </nav>
+  </main>
+
+  {% endblock %}

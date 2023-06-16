@@ -1,0 +1,24 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/new_project_blog", 
+        "prod_uri": "mysql://root:@localhost/new_project_blog",
+        "insta_url": "https://www.instagram.com/mohit_prajapat_7/",
+        "tw_url": "https://twitter.com/Mohit57787327",
+        "fb_url": "https://www.facebook.com/profile.php?id=100090354816352",
+        "git_url": "https://github.com/mohitkumhar",
+        "blog_title": "Mohit's blog",
+        "blog_head": "Blog by Mohit Kumhar",
+        "blog_sub_head": "Explore What You Love",
+        "noOfPost_onHomePage": 6,
+        "mail_username": "<gmail_username>@gmail.com",
+        "mail_password": "<password>",
+        "admin_user": "mohit",
+        "admin_password": "mohitkumhar",
+        "upload_location": "D:\\mohit\\work\\python\\Project pyhton\\main flask blog\\python blog project\\static\\img"
+
+    }
+    
+
+}
