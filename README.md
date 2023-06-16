@@ -18,3 +18,11 @@ This README file provides an overview of the project,  and details about its fea
 9. Create, Edit, and Delete Blog Posts: Once logged in, admin can create new blog posts, edit the content of their existing posts, and delete posts they no longer wish to keep.
 
 10. Log Out: The project includes a log-out functionality, allowing admin to securely end their session when they have finished using the application.
+![Admin Dashboard](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/e11cf87a-3efe-4626-9674-0c6a57084579)
+![Add Post](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/8c3f400f-d3ad-4960-a323-2c29f98f213d)
+![About](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/6bbd0418-ab23-4377-b2c9-aa1f8c7d8db1)
+![Login](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/a2c118c3-f75c-4563-acef-d90e767267b4)
+![Home](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/36faa5bc-b146-4ad6-bf61-59ed4d896ba9)
+![Home Page Posts](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/b94dfb0c-7472-4a7c-9229-243ca9f217a5)
+![Edit Post](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/99bb67b9-106f-48a9-ae8a-202e41d892f3)
+![Contact](https://github.com/mohitkumhar/Python-Flask-Blog/assets/107917553/2fb4edca-f0b2-499a-a7fa-fbd697f2c5cf)
