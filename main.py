@@ -17,8 +17,8 @@ app.config['UPLOAD_FOLDER'] = params['upload_location']
 app.config.update(
     MAIL_SERVER = 'smtp.gmail.com',
     MAIL_PORT = 465,
-    MAIL_USERNAME = params['mail_username'],
-    MAIL_PASSWORD = params['mail_password'],
+    MAIL_USERNAME = os.getenv('MAIL_USERNAME'),
+    MAIL_PASSWORD = os.getenv('MAIL_PASSWORD'),
     MAIL_USE_TLS = False,
     MAIL_USE_SSL = True
 )
