@@ -1,4 +1,4 @@
 flask
 flask_sqlalchemy
-werkzeug.utils
+werkzeug
 flask_mail
