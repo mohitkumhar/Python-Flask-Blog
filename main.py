@@ -7,9 +7,11 @@ import os
 from werkzeug.utils import secure_filename
 import math
 
+
+print("welcome to app")
 with open('config.json', 'r')as c:
     params = json.load(c) ["params"]
-
+print(params)
 local_server = True
 app = Flask(__name__)
 app.secret_key = 'this-is-the-secret-key'
